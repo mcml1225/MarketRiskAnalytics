@@ -90,7 +90,7 @@ Distribution analysis with histograms and Q-Q plots
 One-click data export to CSV
 
 📁 Project Structure
-
+```
 MarketRiskAnalytics/
 ├── .github/workflows/    # CI/CD configuration
 ├── src/
@@ -105,6 +105,7 @@ MarketRiskAnalytics/
 ├── app.py               # Streamlit dashboard
 ├── requirements.txt     # Dependencies
 └── README.md           # Documentation
+```
 🔍 Understanding the Metrics
 Metric	Formula	Interpretation
 VaR	Percentile(returns, 1-α)	Maximum loss at confidence α
